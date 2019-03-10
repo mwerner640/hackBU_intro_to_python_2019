@@ -1,4 +1,4 @@
-#when in python, to show output on the console you should to include a print statement
+#when in python, to show output on the console you should include a print statement
 #you can directly include what you want to print, as below:
 
 print(5)
