@@ -1,10 +1,10 @@
-#Loops
+# Loops
 
 One of the most important parts of programming is being able to repeat something over and over again without repeating dozens or even hundreds of lines of code. That's where loops come in.
 
-There are two types of loops used in most of programming: "For" and "While"
+There are two types of loops used in most of programming: **For** and **While**
 
-##For Loops
+## For Loops
 
 For loops are used when you know exactly how many times you want your loop to run.
 
@@ -17,9 +17,9 @@ for i in range(10):
 
 There are two important things to note here:
 
-1. "i" is our iterating variable. That's a fancy way of saying that i is a variable that changes after every loop. It's important to remember that i does "not" have to be i, it can be named anything (as long as it's not a key word in Python).
+1. **i** is our iterating variable. That's a fancy way of saying that i is a variable that changes after every loop. It's important to remember that i does **not** have to be i, it can be named anything (as long as it's not a key word in Python).
 
-2. "range(10)" tells our loop how many times to run. Changing the number in the () changes how many times it will run.
+2. **range(10)** tells our loop how many times to run. Changing the number in the () changes how many times it will run.
 
 Now that we know about these two parts of for loops, let's try to print the numbers 0 through 20:
 
@@ -30,13 +30,13 @@ for x in range(21):
 
 Here we changed three things:
 
-1. Our iterating variable is called "x" now.
+1. Our iterating variable is called **x** now.
 
-2. We're printing out "x" now instead of Hello. What this means is that x is going to start out at the first value in our range, 0, and at the end of every loop it will increase by 1.
+2. We're printing out **x** now instead of "Hello". What this means is that x is going to start out at the first value in our range, 0, and at the end of every loop it will increase by 1.
 
 3. Our range is 21 because we want to print all of the numbers up to 20. Since our loop starts at 0, range(20) would only take us to the number 19. So we have to loop 21 times to get numbers 0 through 20.
 
-##While Loops
+## While Loops
 
 While loops are used when we don't know how many times our loop needs to run.
 
