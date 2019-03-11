@@ -62,6 +62,8 @@ And making a dictionary with values in it looks like this:
 pets = {"Dog": "Rufus", "Cat": "Ringo", "Fish": "Bubbles"}
 ```
 
+For every entry, the basic format is **Key: Value**. The keys must always be strings, but the values can be any data type.
+
 Now we have a dictionary of pets with the type of animal as the key and the name of that animal as the value. Instead of using indexes to access values, we can now just use the keys we've made:
 
 ```python
@@ -69,11 +71,20 @@ pets = {"Dog": "Rufus", "Cat": "Ringo", "Fish": "Bubbles"}
 my_dog = pets["Dog"]
 ```
 
-This will store the value associated with the key "Dog" into the my_dog variable, which in this case will be "Rufus". It's important to note that even though we use {} around a dictionary itself, we still use [] to access elements of the dictionary.
+This will store the value associated with the key "Dog" into the **my_dog** variable, which in this case will be "Rufus". It's important to note that even though we use {} around a dictionary itself, we still use [] to access elements of the dictionary.
 
 Adding elements to the dictionary or changing values associated with keys already in the dictionary is done very similarly:
 
 ```python
 pets = {"Dog": "Rufus", "Cat": "Ringo", "Fish": "Bubbles"}
 pets["Bird"] = "Polly"
+```
+
+Now the list will have a fourth element with key "Bird" and value "Polly".
+
+Removing an element from a dictionary is very similar to removing from a list, but the function is called pop() instead of remove(). This will remove both the key and the value from the dictionary. :
+
+```python
+pets = {"Dog": "Rufus", "Cat": "Ringo", "Fish": "Bubbles"}
+pets.pop("Fish")
 ```
