@@ -1,5 +1,5 @@
 # Boolean Logic
-As you saw in part 3d your python code can respond to conditions.
+As you saw in Functions your python code can respond to conditions.
 An easy way to do this is with if/else blocks.
 
 ```
