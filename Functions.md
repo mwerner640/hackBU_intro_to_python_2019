@@ -29,7 +29,7 @@ Now we can set a new variable to equal the result of the function.
 ```
 truth = isTwentySixTooManyCats()
 ```
-### print truth to see if it equals yes (it better or I messed up somehow...)
+### Print truth to see if it equals yes (it better or I messed up somehow...)
 
 This doesn't seem very useful, but that's because I haven't told you the most important part yet!
 Your functions can import information--you put how many variables you want in the parenthesis when you write the function
