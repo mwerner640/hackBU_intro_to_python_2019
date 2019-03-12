@@ -64,7 +64,7 @@ def doYouThinkIHaveTooManyCats(numCats, yourLimit):
 print(doYouThinkIHaveTooManyCats(myCats, 5))
 ```
 
-### Write your own function that takes a name you feed it and returns a greeting along with that name 
----
-#### <div style="text-align: right">                                                              Next File (Recommended): Boolean Logic </div>
+### Write your own function that takes a name and returns a greeting along with that name 
+--
+#### <div style="text-align: right"> Next File (Recommended): Boolean Logic </div>
 
