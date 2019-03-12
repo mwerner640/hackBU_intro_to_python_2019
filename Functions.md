@@ -5,32 +5,37 @@ To write your own function start with def and the name of your function followed
 then, indented, write what you want your function to do.
 for example:
 
-```def isTwentySixTooManyCats():
+```
+def isTwentySixTooManyCats():
   print("probably")
 ```
 
 To use our function we just need to write it's name followed by parenthesis.
 
-```isTwentySixTooManyCats()
+```
+isTwentySixTooManyCats()
 ```
 
 This should print probably.
 Alternatively if we write this function with a return statement we can set probably to a variable instead.
 
-```def isTwentySevenTooManyCats():
+```
+def isTwentySevenTooManyCats():
   return yes
 ```
 
 Now we can set a new variable to equal the result of the function.
 
-```truth = isTwentySixTooManyCats()
+```
+truth = isTwentySixTooManyCats()
 ```
 print truth to see if it equals yes (it better or I messed up somehow...)
 
 This doesn't seem very useful, but that's because I haven't told you the most important part yet!
 Your functions can import information--you put how many variables you want in the parenthesis when you write the function
 
-```def doIHaveTooManyCats(numCats):
+```
+def doIHaveTooManyCats(numCats):
   if numCats <= 15:
     return "no"
   else:
@@ -49,7 +54,8 @@ print(doIHaveTooManyCats(myCats))
 
 Your functions can use multiple variables
 
-```def doYouThinkIHaveTooManyCats(numCats, yourLimit):
+```
+def doYouThinkIHaveTooManyCats(numCats, yourLimit):
   if numCats <= yourLimit:
     return "no, less than "+yourLimit+" is fine."
   else:
