@@ -16,7 +16,4 @@ for i in range(10):
 my_list = [i for i in range(10)]
 ```
 
-This will automatically loop 10 times and add every element "i" just like the three line code above would.
-
-
-Say you want to take a list of strings and make a new list of the first letter
+This will automatically loop 10 times and add every element "i" just like the three lines of code above would.

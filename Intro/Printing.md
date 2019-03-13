@@ -17,7 +17,7 @@ print(x)
 you can also print both at the same time
 
 ```
-print(x+" cats")
+print(x, "cats")
 ```
 
 ### Try to print "Hello HackBU!"

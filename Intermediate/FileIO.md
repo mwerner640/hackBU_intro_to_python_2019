@@ -26,7 +26,7 @@ There are two different ways to open a file for writing.
 The first is only for creating a new file. It will create a brand new file with the name that you give, and if a file by that name already exists **it will be overwritten, so be careful**. In this case, the second parameter becomes "w" for "writing".
 
 ```python
-my_file = open("filename.txt", 'w')
+my_file = open("filename.txt", "w")
 ```
 
 Now if you want to open a file that already exists and you **don't** want it to be completely overwritten, you can instead open that file for appending. The second parameter now becomes "a" for "appending".
@@ -36,3 +36,20 @@ my_file = open("filename.txt", "a")
 ```
 
 Whether you open the file for writing or appending, the function used to write text into that file is very simple: write(). You can pass any string into this function and it will write it to the file. Including a newline character ("\n") will force the next string written to the file to begin on a new line.
+
+```python
+my_file = open("filename.txt", "a")
+my_file.write("Now this file has some text in it!")
+```
+
+It's important to remember that any time you're done using a file, you should **always** make sure to close it using the close() function:
+
+```python
+my_file = open("filename.txt", "w")
+#Your
+#Code
+#Here
+my_file.close()
+```
+
+Usually it's not a big deal, but there are ways that people could steal private information if you don't remember to close your files!

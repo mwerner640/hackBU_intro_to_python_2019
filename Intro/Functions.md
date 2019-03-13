@@ -1,7 +1,7 @@
 # Functions
-Python uses functions to repurpose code. 
+Python uses functions to repurpose code.
 The language has many default functions like print, but you can also write your own.
-To write your own function start with def and the name of your function followed by (): 
+To write your own function start with def and the name of your function followed by ():
 then, indented, write what you want your function to do.
 for example:
 
@@ -21,7 +21,7 @@ Alternatively if we write this function with a return statement we can set proba
 
 ```
 def isTwentySevenTooManyCats():
-  return yes
+  return "yes"
 ```
 
 Now we can set a new variable to equal the result of the function.
@@ -60,11 +60,10 @@ def doYouThinkIHaveTooManyCats(numCats, yourLimit):
     return "no, less than "+yourLimit+" is fine."
   else:
     return "yes"
-    
+
 print(doYouThinkIHaveTooManyCats(myCats, 5))
 ```
 
-### Write your own function that takes a name and returns a greeting along with that name 
+### Write your own function that takes a name and returns a greeting along with that name
 ---
 #### <div style="text-align: right"> Next File (Recommended): Boolean Logic </div>
-
